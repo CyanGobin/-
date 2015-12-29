@@ -1,0 +1,18 @@
+.container{
+    margin: 0 auto;
+    width: 1190px;
+    height: 2787px;
+   }
+
+#btn{
+   position: fixed;
+   left:92%;
+   bottom: 5px;
+   width: 40px; 
+   height: 40px;
+   background: url("../images/top_bg.png") no-repeat left top;
+   display: none;
+}
+#btn:hover{
+    background: url("../images/top_bg.png") no-repeat left 0 top -40px;
+}
